@@ -11,6 +11,7 @@ Repositório criado com a intenção de aprofundar os estudos de algoritmos mate
 
 ## Estrutura de dados
 Uma estrutura de dados é uma maneira particular de organizar e armazenar dados em um computador para que ele possa ser acessado e modificado de forma eficiente. Mais precisamente, uma estrutura de dados é uma coleção de dados valores, as relações entre eles e as funções ou operações que podem ser aplicadas aos dados.
+      
       * [Lista encadeada] - Implementado em python
       * [Lista duplamente encadeada]
       * [Fila]
@@ -31,6 +32,7 @@ Uma estrutura de dados é uma maneira particular de organizar e armazenar dados 
  
 ## Algoritimos
 Um algoritmo é uma especificação inequívoca de como resolver uma classe de problemas. Isto é um conjunto de regras que define precisamente uma sequência de operações.
+      
       * **Matematica**
           * [Manipulação de Bit]
           * [Fatorial]
