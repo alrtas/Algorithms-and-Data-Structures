@@ -13,22 +13,22 @@ Repositório criado com a intenção de aprofundar os estudos de algoritmos mate
 Uma estrutura de dados é uma maneira particular de organizar e armazenar dados em um computador para que ele possa ser acessado e modificado de forma eficiente. Mais precisamente, uma estrutura de dados é uma coleção de dados valores, as relações entre eles e as funções ou operações que podem ser aplicadas aos dados.
       
 * [Lista encadeada](src/data-structures/linked-list) - Implementado em python
-* [Lista duplamente encadeada] (src/data-structures/doubly-linked-list)
-* [Fila] (src/data-structures/queue)
-* [Pilha] (src/data-structures/stack)
+* [Lista duplamente encadeada](src/data-structures/doubly-linked-list)
+* [Fila](src/data-structures/queue)
+* [Pilha](src/data-structures/stack)
 * [Tabela Hash](src/data-structures/hash-table)
-* [Árvore Binária - Heap] - Mínimo e máximo (src/data-structures/heap)
-* [Fila de prioridade] (src/data-structures/priority-list)
-* [Árvore de prefixos - Trie] (src/data-structures/trie)
+* [Árvore Binária - Heap](src/data-structures/heap)- Mínimo e máximo
+* [Fila de prioridade](src/data-structures/priority-list)
+* [Árvore de prefixos - Trie](src/data-structures/trie)
 * [Árvores]
      * [Árvore de Pesquisa Binária]
      * [Árvore AVL]
      * [Árvore Vermelha-Preta]
      * [Árvore de Segmento]
      * [Árvore Fenwick]
-* [Gráfico] (src/data-structures/graph)
-* [Conjuntor Disjuntor]  (src/data-structures/disjoint-set)
-* [Filtro Bloom] (src/data-structures/bloom-filter)
+* [Gráfico](src/data-structures/graph)
+* [Conjuntor Disjuntor](src/data-structures/disjoint-set)
+* [Filtro Bloom](src/data-structures/bloom-filter)
  
 ## Algoritimos
 Um algoritmo é uma especificação inequívoca de como resolver uma classe de problemas. Isto é um conjunto de regras que define precisamente uma sequência de operações.
