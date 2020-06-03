@@ -7,4 +7,6 @@ Fatorial é um número natural inteiro positivo, o qual é representado por `n!`
 ## Referencias
 
 [Site da internet](https://www.todamateria.com.br/fatorial/#:~:text=Fatorial%20%C3%A9%20um%20n%C3%BAmero%20natural,at%C3%A9%20chegar%20ao%20n%C3%BAmero%201.)
-[Outro site da internet] (https://theedge.com.hk/fun-facts-about-factorials/)
+
+
+[Outro site da internet](https://theedge.com.hk/fun-facts-about-factorials/)
