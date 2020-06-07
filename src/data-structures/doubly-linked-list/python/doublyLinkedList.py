@@ -15,27 +15,28 @@ class DoublyLinkedList:
         current.next = None
         current.previous = None
 
-    def append(self, data):  # it works
+    def append(self, data):
         new_node = Node(data)
         current = self.head
+        self.tail.previous = new_node
         while current.next is not None:
             current = current.next
         current.next = new_node
-        new_node.next = self.tail
-        #new_node.previous = current
-        #new_node.next = self.tail
+        #new_node.next = tail # This line keep breaking
 
     def prepend(self, data):  # it works
         new_node = Node(data)
-        current = self.head
-        new_node.next = current.next
-        current.next = new_node
-        new_node.previous = current
+        new_node.next = self.head.next
+        self.head.next = new_node
+        new_node.previous = self.head
+        #if self.head.next is None:
+        #    self.tail.previous = new_node.next
+        #    new_node.next = self.tail
 
     def length(self):  # it works
         current = self.head
         total = 0
-        while current is not self.tail:
+        while current is not None:
             total += 1
             current = current.next
         return total-1  # discount the tail
@@ -43,7 +44,7 @@ class DoublyLinkedList:
     def display(self):  # it works
         elements = []
         current = self.head
-        while current.next is not self.tail:
+        while current is not None:
             current = current.next
             elements.append(current.data)
         return elements
@@ -81,7 +82,6 @@ class DoublyLinkedList:
             current_index = size
             current = self.tail
             while True:
-                print current_index
                 current = current.previous
                 if current_index == index:
                     return current.data

@@ -1,18 +1,23 @@
-import doublyLinkedList
+import doublyLinkedList as d
 
-my_list = doublyLinkedList.DoublyLinkedList()
+my_list = d.DoublyLinkedList()
 my_list.append(0)
 my_list.append(1)
 my_list.append(2)
 my_list.append(3)
 my_list.append(4)
 
+my_list1 = d.DoublyLinkedList()
+my_list1.prepend(0)
+my_list1.prepend(1)
+my_list1.prepend(2)
+my_list1.prepend(3)
+my_list1.prepend(4)
 
-print my_list.display()
-print my_list.displayBackwards()
-print my_list.length()
-print my_list.path(3)
-print my_list.get(6)
+my_list1.display()
+
+
+
 
 
 
