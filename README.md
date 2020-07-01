@@ -21,7 +21,7 @@ Uma estrutura de dados é uma maneira particular de organizar e armazenar dados 
 * [Fila de prioridade](src/data-structures/priority-list)
 * [Árvore de prefixos - Trie](src/data-structures/trie)
 * [Árvores]
-     * [Árvore de Pesquisa Binária]
+     * [Árvore de Pesquisa Binária](src/data-structures/tree)
      * [Árvore AVL]
      * [Árvore Vermelha-Preta]
      * [Árvore de Segmento]
@@ -34,18 +34,18 @@ Uma estrutura de dados é uma maneira particular de organizar e armazenar dados 
 Um algoritmo é uma especificação inequívoca de como resolver uma classe de problemas. Isto é um conjunto de regras que define precisamente uma sequência de operações.
 
 * **Matematica**
-     * [Manipulação de Bit]
-     * [Fatorial]
-     * [Número de Fibonacci]
-     * [Teste de Primalidade]
-     * [Algoritmo Euclidiano]
-     * [Mínimo múltiplo comum]
-     * [Peneira de Eratóstenes]
-     * [Potência de dois]
-     * [Triângulo de Pascal]
-     * [Número complexo]
-     * [Partição inteira]
-     * [Algoritmo Liu Hui π]
+     * [Manipulação de Bit](algorithms/Math/bit-manipulation)
+     * [Fatorial](algorithms/Math/factorial)
+     * [Número de Fibonacci](algorithms/Math/fibonacci)
+     * [Teste de Primalidade](algorithms/Math/primality-test)
+     * [Algoritmo Euclidiano](algorithms/Math/euclidean-algorithm)
+     * [Mínimo múltiplo comum](algorithms/Math/least-common-multiple)
+     * [Peneira de Eratóstenes](algorithms/Math/sieve-of-eratosthenes)
+     * [Potência de dois](algorithms/Math/is-power-of-two)
+     * [Triângulo de Pascal](algorithms/Math/pascal-triangle)
+     * [Número complexo](algorithms/Math/complex-number)
+     * [Partição inteira](algorithms/Math/integer-partition)
+     * [Algoritmo Liu Hui π](algorithms/Math/liu-hui)
 * **Conjuntos**
      * [Produto cartesiano]
      * [Permutações de Fisher–Yates]
