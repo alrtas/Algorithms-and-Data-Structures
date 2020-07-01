@@ -20,7 +20,7 @@ Uma estrutura de dados é uma maneira particular de organizar e armazenar dados 
 * [Árvore Binária - Heap](src/data-structures/heap)- Mínimo e máximo
 * [Fila de prioridade](src/data-structures/priority-list)
 * [Árvore de prefixos - Trie](src/data-structures/trie)
-* [Árvores]
+* Árvores
      * [Árvore de Pesquisa Binária](src/data-structures/tree)
      * [Árvore AVL]
      * [Árvore Vermelha-Preta]
